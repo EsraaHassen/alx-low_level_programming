@@ -6,9 +6,11 @@
 int main(void)
 {
 	int digit;
-       	digit = 0;
+
+	digit = 0;
 
 	while (digit <= 9)
+
 	{
 		printf("%i", digit);
 		digit++;
