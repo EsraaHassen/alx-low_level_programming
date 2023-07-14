@@ -9,7 +9,7 @@ int digit;
 digit = 0;
 while (digit <= 9)
 {
-putchar(digit);
+putchar(digit + '0');
 digit++;
 }
 putchar('\n');
